@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.active {
+  color: #2563eb;
+  border: none;
+  border-bottom: 2px solid #2563eb;
+  background-color: transparent;
+  font-family: Bree Serif;
+  font-size: 20px;
+  margin-right: 1px;
+  padding: 8px 16px;
+}
+
+.deactive {
+  color: #7b8794;
+  border: none;
+  border-bottom: 2px solid #7b8794;
+  background-color: transparent;
+  font-family: Bree Serif;
+  font-size: 20px;
+  margin-right: 1px;
+  padding: 8px 16px;
+}
+
+.tab-item {
+  list-style-type: none;
+}

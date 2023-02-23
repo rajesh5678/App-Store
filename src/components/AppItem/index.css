@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.app-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 140px;
+  width: 130px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .app-item-container {
+    height: 200px;
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.app-image {
+  height: 70px;
+  width: 70px;
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .app-image {
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+  }
+}
+
+.app-name {
+  font-family: Bree Serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .app-name {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
